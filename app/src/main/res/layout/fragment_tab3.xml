@@ -1,0 +1,729 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tab3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:rowCount="11"
+        android:columnCount="5">
+
+
+        <TextView
+            android:id="@+id/DateMW3TV"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="25"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/DateTW3TV"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="26"
+            android:textColor="@color/black"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/DateWW3TV"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="27"
+            android:textColor="@color/black"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/DateThW3TV"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="28"
+            android:textColor="@color/black"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/DateFW3TV"
+            android:layout_width="67dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="29"
+            android:textColor="@color/black"
+
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/StundenM1W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT1W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW1W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh1W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF1W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+
+
+
+        <Button
+            android:id="@+id/StundenM2W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT2W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW2W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh2W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF2W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+
+
+
+        <Button
+            android:id="@+id/StundenM3W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT3W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW3W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh3W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF3W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+
+        <Button
+            android:id="@+id/StundenM4W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT4W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW4W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh4W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF4W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+
+        <Button
+            android:id="@+id/StundenM5W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT5W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW5W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh5W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF5W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+
+        <Button
+            android:id="@+id/StundenM6W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT6W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW6W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh6W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF6W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+
+        <Button
+            android:id="@+id/StundenM7W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT7W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW7W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh7W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF7W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenM8W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT8W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW8W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh8W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF8W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+
+        <Button
+            android:id="@+id/StundenM9W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT9W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW9W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh9W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF9W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+
+        <Button
+            android:id="@+id/StundenM10W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenT10W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenW10W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenTh10W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/StundenF10W3Btn"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/stundenbtnresource"
+            android:backgroundTint="#022385"
+            android:gravity="center"
+            android:text="M"
+            android:textColor="@color/teal_700"
+            android:textSize="19sp" />
+
+
+
+
+    </GridLayout>
+
+</FrameLayout>

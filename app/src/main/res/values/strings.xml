@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SIGNS NEU</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="title_activity_l_aufgaben_pre_erstellen" translatable="false">LAufgabenPreErstellen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment.</string>
+    <string name="title_activity_login" translatable="false">Login</string>
+    <string name="freitag_29_januar" translatable="false">Freitag, 29. Januar</string>
+    <string name="donnerstag_28_januar" translatable="false">Donnerstag, 28. Januar</string>
+    <string name="name_vorname_datum_farbe" translatable="false">Name, Vorname Datum Farbe</string>
+    <string name="f" translatable="false">F</string>
+    <string name="_19" translatable="false">19</string>
+    <string name="titel" translatable="false">Titel</string>
+    <string name="datum" translatable="false">Datum</string>
+    <string name="schreibe_eine_nachricht_an_deinen_lehrer" translatable="false">Schreibe eine Nachricht an deinen Lehrer</string>
+    <string name="datei_anf_gen" translatable="false">Datei anfügen</string>
+    <string name="abgabe_am" translatable="false">Abgabe am</string>
+    <string name="stundenplan_einstellungen" translatable="false">Stundenplan Einstellungen</string>
+    <string name="aufgaben" translatable="false">AUFGABEN</string>
+    <string name="hier_findest_du_die_neusten_aufgaben_die_lehrer_hochladen" translatable="false">Hier findest du die neusten Aufgaben, die Lehrer hochladen.</string>
+    <string name="news" translatable="false">NEWS</string>
+    <string name="wahlen_news_und_mehr" translatable="false">Wahlen, News und Mehr</string>
+    <string name="deine_stimme_z_hlt_klassenfahrten_f_cher_ausfl_ge_und_mehr" translatable="false">Deine Stimme zählt! Klassenfahrten, Fächer, Ausflüge und Mehr.</string>
+    <string name="signs" translatable="false">SIGNS</string>
+    <string name="elternbriefe_digital" translatable="false">Elternbriefe. Digital.</string>
+    <string name="stunden" translatable="false">STUNDEN</string>
+    <string name="kein_normaler_stundenplan" translatable="false">Kein normaler Stundenplan.</string>
+    <string name="der_praktische_sch_lerausweis" translatable="false">Der praktische Schülerausweis.</string>
+    <string name="id" translatable="false">ID</string>
+    <string name="schulname" translatable="false">Schulname</string>
+    <string name="ist_registrieter_sch_ler_der" translatable="false">ist registrieter Schüler der</string>
+    <string name="name_von_sch_ler" translatable="false">Name von Schüler</string>
+    <string name="anmerkungen_zu_der_abgegebenen_aufgabe_des_sch_lers" translatable="false">Anmerkungen zu der abgegebenen Aufgabe des Schülers</string>
+    <string name="datei_ffnen" translatable="false">Datei öffnen</string>
+    <string name="datum_aus_abgabe" translatable="false">Datum aus Abgabe</string>
+    <string name="fertig" translatable="false" tools:ignore="DuplicateDefinition">Fertig</string>
+    <string name="schreiben_sie_dem_sch_ler_eine_nachricht_und_eine_bewertung_f_r_die_abgegebene_aufgabe" translatable="false" tools:ignore="DuplicateDefinition">Schreiben Sie dem Schüler eine Nachricht und eine Bewertung für die abgegebene Aufgabe</string>
+    <string name="antworten" translatable="false" tools:ignore="DuplicateDefinition">Antworten</string>
+    <string name="aufgabe_von" translatable="false" tools:ignore="DuplicateDefinition">Aufgabe von</string>
+    <string name="erstellen" translatable="false" tools:ignore="DuplicateDefinition">Erstellen</string>
+    <string name="beschreiben_sie_hier_die_aufgabe_f_r_ihre_sch_ler" translatable="false" tools:ignore="DuplicateDefinition">Beschreiben Sie hier die Aufgabe für Ihre Schüler.</string>
+    <string name="einsicht" translatable="false" tools:ignore="DuplicateDefinition">Einsicht</string>
+    <string name="e_mail" translatable="false" tools:ignore="DuplicateDefinition">E-Mail</string>
+    <string name="weiter" translatable="false" tools:ignore="DuplicateDefinition">Weiter</string>
+    <string name="passwort" translatable="false" tools:ignore="DuplicateDefinition">Passwort</string>
+    <string name="bitte_melden_sie_sich_an" translatable="false" tools:ignore="DuplicateDefinition">Bitte melden Sie sich an</string>
+    <string name="einen_account_erstellen" translatable="false" tools:ignore="DuplicateDefinition">Einen Account erstellen</string>
+    <string name="anmelden" translatable="false" tools:ignore="DuplicateDefinition">Anmelden</string>
+    <string name="bitte_melden_sie_sich_an_oder_erstellen_sie_einen_account" translatable="false" tools:ignore="DuplicateDefinition">Bitte melden Sie sich an oder erstellen Sie einen Account</string>
+    <string name="eingang" translatable="false">Eingang</string>
+    <string name="sender" translatable="false" tools:ignore="DuplicateDefinition">Sender</string>
+    <string name="button" translatable="false" tools:ignore="DuplicateDefinition">Button</string>
+    <string name="neuer_sign" translatable="false" tools:ignore="DuplicateDefinition">Neuer SIGN</string>
+    <string name="senden" translatable="false" tools:ignore="DuplicateDefinition">Senden</string>
+    <string name="abbrechen" translatable="false" tools:ignore="DuplicateDefinition">Abbrechen</string>
+    <string name="best_tigt" translatable="false" tools:ignore="DuplicateDefinition">Bestätigt!</string>
+    <string name="passwort_eingeben" translatable="false" tools:ignore="DuplicateDefinition">Passwort eingeben</string>
+    <string name="best_tigen" translatable="false" tools:ignore="DuplicateDefinition">Bestätigen</string>
+    <string name="bitte_best_tigen_sie_den_sign" translatable="false" tools:ignore="DuplicateDefinition">Bitte bestätigen Sie den SIGN</string>
+    <string name="thema" translatable="false" tools:ignore="DuplicateDefinition">Thema</string>
+    <string name="beschreibung" translatable="false" tools:ignore="DuplicateDefinition">Beschreibung</string>
+    <string name="fach" translatable="false" tools:ignore="DuplicateDefinition">Fach</string>
+    <string name="am_tag" translatable="false" tools:ignore="DuplicateDefinition">am Tag</string>
+    <string name="raum" translatable="false" tools:ignore="DuplicateDefinition">Raum</string>
+    <string name="lehrer" translatable="false" tools:ignore="DuplicateDefinition">Lehrer</string>
+    <string name="uhrzeit_bis_uhrzeit" translatable="false" tools:ignore="DuplicateDefinition">Uhrzeit bis Uhrzeit</string>
+    <string name="mathematik" translatable="false" tools:ignore="DuplicateDefinition">Mathematik</string>
+    <string name="deutsch" translatable="false" tools:ignore="DuplicateDefinition">Deutsch</string>
+    <string name="englisch" translatable="false" tools:ignore="DuplicateDefinition">Englisch</string>
+    <string name="chemie" translatable="false" tools:ignore="DuplicateDefinition">Chemie</string>
+    <string name="biologie" translatable="false" tools:ignore="DuplicateDefinition">Biologie</string>
+    <string name="physik" translatable="false" tools:ignore="DuplicateDefinition">Physik</string>
+    <string name="sowi" translatable="false" tools:ignore="DuplicateDefinition">SoWi</string>
+    <string name="geschichte" translatable="false" tools:ignore="DuplicateDefinition">Geschichte</string>
+    <string name="literatur" translatable="false" tools:ignore="DuplicateDefinition">Literatur</string>
+    <string name="religion" translatable="false" tools:ignore="DuplicateDefinition">Religion</string>
+    <string name="sport" translatable="false" tools:ignore="DuplicateDefinition">Sport</string>
+    <string name="spanisch" translatable="false" tools:ignore="DuplicateDefinition">Spanisch</string>
+    <string name="unterricht" translatable="false" tools:ignore="DuplicateDefinition">Unterricht</string>
+    <string name="neue_aufgaben" translatable="false" tools:ignore="DuplicateDefinition">Neue Aufgaben</string>
+    <string name="name" translatable="false" tools:ignore="DuplicateDefinition">Name</string>
+    <string name="bitte_beschreiben_sie_die_wahl" translatable="false" tools:ignore="DuplicateDefinition">Bitte beschreiben Sie die Wahl</string>
+    <string name="m_glichkeit_1" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 1</string>
+    <string name="m_glichkeit_2" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 2</string>
+    <string name="m_glichkeit_3" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 3</string>
+    <string name="m_glichkeit_4" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 4</string>
+    <string name="m_glichkeit_5" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 5</string>
+    <string name="m_glichkeit_6" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 6</string>
+    <string name="m_glichkeit_7" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 7</string>
+    <string name="m_glichkeit_8" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 8</string>
+    <string name="m_glichkeit_9" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 9</string>
+    <string name="m_glichkeit_10" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 10</string>
+    <string name="m_glichkeit_11" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 11</string>
+    <string name="m_glichkeit_12" translatable="false" tools:ignore="DuplicateDefinition">Möglichkeit 12</string>
+    <string name="aufgabe_erstellen" translatable="false">Aufgabe Erstellen</string>
+    <string name="Bitte_schreiben_Sie_eine_Bewertung" translatable="false">Bitte bewerten Sie die Aufgabe </string>
+    <string name="Bewerten" translatable="false">Bewerten</string>
+    <string name="klasse" translatable="false">Klasse</string>
+    <string name="latein" translatable="false">Latein</string>
+    <string name="titel_eingeben" translatable="false">Titel eingeben</string>
+    <string name="erste_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 1</string>
+    <string name="zweite_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 2</string>
+    <string name="dritte_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 3</string>
+    <string name="vierte_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 4</string>
+    <string name="f_nfte_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 5</string>
+    <string name="sechste_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 6</string>
+    <string name="siebte_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 7</string>
+    <string name="achte_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 8</string>
+    <string name="neunte_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 9</string>
+    <string name="zehnte_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 10</string>
+    <string name="elfte_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 11</string>
+    <string name="zw_lfte_wahlm_glichkeit" translatable="false">Wahlmöglichkeit 12</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_account">Account</string>
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+
+
+</resources>

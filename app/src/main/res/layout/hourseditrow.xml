@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="6dip"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+        <TextView
+            android:id="@+id/courseHoursEdit"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/teacherHoursEdit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+
+        <TextView
+            android:id="@+id/hourHoursEdit"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:text="Stunde"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/gradeHoursEdit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20px"
+            android:text="Jahrgang"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/dateHoursEdit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40px"
+            android:text="Date"
+            android:textAlignment="textStart"
+            android:textColor="#5959AD"
+            android:textSize="17sp" />
+
+
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>

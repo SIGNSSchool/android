@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    tools:context=".assignments.AufgabenBewertungSDetail">
+
+
+    <TextView
+        android:id="@+id/SubjectTVAufgabenBewertungSAnzeige"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Subject"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/DateTVAufgabenBewertungSAnzeige"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Date"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/AufgabeAufgabeBewertungSAnzeige"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/DateTVAufgabenBewertungSAnzeige"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Aufgabe"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/BewertungTVABSD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AufgabeAufgabeBewertungSAnzeige"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Bewertung"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/EvaluationAufgabeBewertungSAnzeige"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/FertigButtonAufgabenBewertungSDetail"
+        android:layout_below="@+id/BewertungTVABSD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Evaluation"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/FertigButtonAufgabenBewertungSDetail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundresource"
+        android:text="Fertig"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFFFFF" />
+
+
+
+
+
+</RelativeLayout>

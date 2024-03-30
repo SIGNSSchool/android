@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="3">
+
+
+        <TextView
+            android:id="@+id/nameAktuelleFehlstunden"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/fromAktuelleFehlstunden"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2px"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/toAktuelleFehlstunden"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2px"
+            android:layout_marginLeft="-110dp"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/testAktuelleFehlstunden"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="2px"/>
+
+
+        <TextView
+            android:id="@+id/reasonAktuelleFehlstunden"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="2px"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="10dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dateAktuelleFehlstunden"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="20px"/>
+
+        <TextView
+            android:id="@+id/hourAktuelleFehlstunden"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:text="Stunden"
+            android:layout_marginTop="20px"/>
+
+
+
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/round_resource">
+
+        <TextView
+            android:id="@+id/textView117"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30dp"
+            android:text="FEHLSTUNDEN"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/home_fehlstunden_first_button"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/round_down_button"
+                    android:backgroundTint="@color/white"
+                    android:text="Meine Fehlstunden"
+                    android:textAllCaps="false"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <Button
+                    android:id="@+id/home_fehlstunden_second_button"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/round_top_button"
+                    android:backgroundTint="@color/black"
+                    android:text="Krankmelden"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    app:layout_constraintBottom_toTopOf="@+id/home_fehlstunden_first_button" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

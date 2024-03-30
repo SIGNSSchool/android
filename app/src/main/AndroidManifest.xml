@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.signs.signsschool">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/playstore"
+        android:label="signs"
+        android:roundIcon="@drawable/playstore"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="default" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".IDQrView"
+            android:exported="false" />
+        <activity
+            android:name=".newID"
+            android:exported="false" />
+        <!--
+        <activity
+            android:name=".EntschuldigenTeacher"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".absences.AttendanceDetail"
+            android:exported="false" />
+        <activity
+            android:name=".absences.Attendance"
+            android:exported="false" />
+        <!--
+<service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        -->
+        <activity
+            android:name=".temp_recurring"
+            android:exported="false" />
+        <activity
+            android:name=".custom"
+            android:exported="false" />
+        <activity
+            android:name=".Upcoming"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <!--
+          <activity
+            android:name=".TempHome"
+            android:exported="false" />
+        -->
+        <activity
+            android:name=".Stats"
+            android:exported="false" />
+        <activity
+            android:name=".myRooms"
+            android:exported="false" />
+        <activity
+            android:name=".Rooms"
+            android:exported="false" />
+        <activity
+            android:name=".assignments.Learning"
+            android:exported="false" />
+        <activity
+            android:name=".hoursEditGrades"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".absences.krankmeldenlaview"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hours"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hoursEditRecipient"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hoursEditDetail"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".hoursEdit"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SignsErstellen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TokenK"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TokenAB"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TokenAE"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabeErstellenWeb"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SIGNSErstellenRecipient"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KursAnzeigeDeleteStudent"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Licenses"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Account"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+       <!-- <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".assignments.AbgegebeneAufgabeImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".absences.RecentAbsences"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".absences.RecentAbsencesDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AnhaengeAbgegebeneAufgabe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".absences.AttestAnsicht"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabeBearbeiten"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabeBearbeitenWeb"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabenBewertungenS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabenBewertungSDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabenUebersichtS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".onboarding.EinfuehrungAufgaben"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".onboarding.EinfuehrungHOURSColours"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".onboarding.EinfuehrungNews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".onboarding.EinfuehrungSigns"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".onboarding.EinfuehrungStunden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".onboarding.EinfuehungId"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.ErstellteAufgaben"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.ErstellteAufgabenAnzeige"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news.CreatedNews"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news.CreatedNewsDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.Fach"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".absences.Absences"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".absences.FehlstundenS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabenUebersicht"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Id"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".absences.AbsencesDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".absences.CallInSick"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CoursesDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Courses"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabenEvaluations"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabenEvaluationsDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.AufgabenEinsicht"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.LAufgabeEinsichtAufgabe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.LAufgabenEinsichtAufgabeAntwort"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".assignments.LAufgabenErstellen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news.News"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news.NewsDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PreLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SignBestaetigen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SignBestaetigenDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.Signs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SignsEingangDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SignsEinsicht"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SignsEinsichtAnzeige"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SignsEinsichtAnzeigeDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SignsErstellenDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signs.SignsUebersicht"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StundenPopOver"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StundenVertretung"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tag"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news.NewsSubmissions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news.NewsSubmissionsDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".news.CreateNews"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

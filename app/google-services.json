@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987741160293",
+    "project_id": "signs-school",
+    "storage_bucket": "signs-school.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987741160293:android:64cda553d7f6640e98978c",
+        "android_client_info": {
+          "package_name": "com.signs.signsschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987741160293-m3mjq1o64ptmjp4eagmumhhd0rpdpfl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvL5ha2a1KOYbEP627txQzVl87RlA5IRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987741160293-m3mjq1o64ptmjp4eagmumhhd0rpdpfl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

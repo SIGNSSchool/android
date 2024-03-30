@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="6dip"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+
+        <TextView
+            android:id="@+id/nameSIGNSEinsicht"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/dateSIGNSEinsicht"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="2px"/>
+
+
+        <TextView
+            android:id="@+id/subjectSIGNSEinsicht"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="2px"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginTop="2px"/>
+
+
+        <TextView
+            android:id="@+id/statusSIGNSEinsicht"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5959AD"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:layout_marginTop="20px"/>
+
+
+
+    </GridLayout>
+
+
+
+
+
+</LinearLayout>

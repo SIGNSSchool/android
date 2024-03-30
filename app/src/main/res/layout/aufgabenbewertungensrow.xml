@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+    <TextView
+        android:id="@+id/titleAufgabenBewertungenS"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:text="Name"
+        android:textSize="16sp" />
+
+
+
+    <TextView
+        android:id="@+id/dateAufgabenBewertungenS"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:text="Date"
+        android:layout_marginTop="2px"/>
+
+        <TextView
+            android:id="@+id/dayAufgabenBewertungenS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:text="Day"
+            android:layout_marginTop="8px"/>
+
+
+    <TextView
+        android:id="@+id/subjectAufgabenBewertungenS"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:text="Subject"
+        android:layout_marginTop="8px"/>
+
+    </GridLayout>
+
+</LinearLayout>

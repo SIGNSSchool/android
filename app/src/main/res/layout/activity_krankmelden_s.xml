@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:screenOrientation="portrait"
+    tools:context=".absences.CallInSick">
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:text="Entschuldigen"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/roundresource"
+        android:text="Upload"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView54"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="340dp"
+                android:text="Findet eine Klausur statt?"
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TESTSpinnerKrankmeldenS"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="Solltest du drei Tage oder länger fehlen, musst du ein ärztliches Attest hochladen "
+                android:textColor="#000000"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ReasonEditTextKrankmeldenS" />
+
+
+            <TextView
+                android:id="@+id/STUNDD"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_alignStart="@+id/NumberOfDaysEditTextKrankmeldenS"
+                android:layout_alignLeft="@+id/NumberOfDaysEditTextKrankmeldenS"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="250dp"
+                android:gravity="center"
+                android:text="Stunde"
+                android:textColor="@color/black"
+                android:textSize="19sp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/PreviewimageViewKrankmelden"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/textView59"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="88dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintTop_toBottomOf="@+id/button60"
+                tools:srcCompat="@drawable/_099385_woman_student_icon" />
+
+            <EditText
+                android:id="@+id/DateEditTextKrankmeldenS"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:hint="Datum - Datum"
+                android:textAlignment="center"></EditText>
+
+
+            <EditText
+                android:id="@+id/ReasonEditTextKrankmeldenS"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:hint="Grund"
+                android:textAlignment="center"></EditText>
+
+
+            <EditText
+                android:id="@+id/NumberOfDaysEditTextKrankmeldenS"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:hint="Anzahl der Tage"
+                android:textAlignment="center"> </EditText>
+
+
+            <Spinner
+                android:id="@+id/TESTSpinnerKrankmeldenS"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/textView75"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp">
+
+            </Spinner>
+
+
+            <Spinner
+                android:id="@+id/StundenSpinnerKrankmeldenS"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:layout_alignEnd="@+id/ReasonEditTextKrankmeldenS"
+                android:layout_alignRight="@+id/ReasonEditTextKrankmeldenS"
+                android:layout_marginTop="250dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp">
+
+            </Spinner>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button62"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button61"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/roundresource"
+        android:text="@string/abbrechen"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <Button
+        android:id="@+id/button61"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundresource"
+        android:text="@string/best_tigen"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+</RelativeLayout>

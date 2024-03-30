@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:clickable="true"
+    tools:context=".assignments.LAufgabenEinsichtAufgabeAntwort">
+
+
+    <Button
+        android:id="@+id/AbbrechenButtonEvaluation"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundresource"
+        android:text="@string/abbrechen"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollViewEvaluation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/submissionDateEvaluation">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/TextAbgegebenAufgabeAntwort"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="40dp"
+                android:text="Aufgabe des Schülers" />
+
+            <EditText
+                android:id="@+id/EvaluationEditTextEvaluation"
+                android:layout_width="360dp"
+                android:layout_height="450dp"
+                android:layout_below="@+id/TextAbgegebenAufgabeAntwort"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:background="#00FFFFFF"
+                android:ems="10"
+                android:hint="@string/Bitte_schreiben_Sie_eine_Bewertung"
+                android:inputType="textMultiLine"
+                android:lines="20"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textIsSelectable="false"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="420dp"
+                android:text="Ihre Bewertung"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+        <TextView
+            android:id="@+id/nameStudentEvaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/aufgabe_von"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BestätigenButtonEvaluation"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundresource"
+        android:text="Bewerten"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/submissionDateEvaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Abgabe am"
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameStudentEvaluation" />
+    </androidx.constraintlayout.widget.ConstraintLayout>

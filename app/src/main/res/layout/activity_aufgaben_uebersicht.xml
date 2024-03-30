@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context=".assignments.AufgabenUebersicht">
+
+    <Button
+        android:id="@+id/EinsichtButtonAufgabeUebersicht"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundresource"
+        android:text="@string/einsicht"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#5959AD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundresource"
+        android:text="Fertig"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/aufgaben"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundresource"
+        android:text="@string/erstellen"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#5959AD"
+        android:layout_marginStart="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/ErstellteAufgabenButton"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundresource"
+        android:text="Erstellte"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#5959AD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/button27"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997" />
+
+    <Button
+        android:id="@+id/BewertungenAufgabenButton"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/roundresource"
+        android:text="Bewertungen"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#5959AD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/EinsichtButtonAufgabeUebersicht"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997" />
+
+
+   <!-- <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#DADADA"
+        android:background="@drawable/roundresource"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GradeSpinner" /> -->
+
+    <Spinner
+        android:id="@+id/GradeSpinner"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/basiccontainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

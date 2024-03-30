@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/signsrow">
+
+
+
+        <TextView
+            android:id="@+id/nameTVSIGNS"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Vorname, Nachname"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/DateTVSIGNS"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:gravity="start"
+            android:text="TT.MM.JJJJ"
+            android:textAlignment="textStart"
+            android:textColor="#A9A9A9"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/SubjectTVSIGNS"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_below="@+id/nameTVSIGNS"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="30dp"
+            android:text="Subject"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+
+</LinearLayout>

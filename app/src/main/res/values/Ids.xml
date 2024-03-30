@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <item type="id" name="M1W1B" />
+    <item type="id" name="M2W1B" />
+    <item type="id" name="M3W1B" />
+    <item type="id" name="M4W1B" />
+    <item type="id" name="M5W1B" />
+    <item type="id" name="M6W1B" />
+    <item type="id" name="M7W1B" />
+    <item type="id" name="M8W1B" />
+    <item type="id" name="M9W1B" />
+    <item type="id" name="M10W1B" />
+
+
+    <item type="id" name="M1W2B" />
+    <item type="id" name="M2W2B" />
+    <item type="id" name="M3W2B" />
+    <item type="id" name="M4W2B" />
+    <item type="id" name="M5W2B" />
+    <item type="id" name="M6W2B" />
+    <item type="id" name="M7W2B" />
+    <item type="id" name="M8W2B" />
+    <item type="id" name="M9W2B" />
+    <item type="id" name="M10W2B" />
+
+
+    <item type="id" name="M1W3B" />
+    <item type="id" name="M2W3B" />
+    <item type="id" name="M3W3B" />
+    <item type="id" name="M4W3B" />
+    <item type="id" name="M5W3B" />
+    <item type="id" name="M6W3B" />
+    <item type="id" name="M7W3B" />
+    <item type="id" name="M8W3B" />
+    <item type="id" name="M9W3B" />
+    <item type="id" name="M10W3B" />
+
+
+
+    <item type="id" name="M1W4B" />
+    <item type="id" name="M2W4B" />
+    <item type="id" name="M3W4B" />
+    <item type="id" name="M4W4B" />
+    <item type="id" name="M5W4B" />
+    <item type="id" name="M6W4B" />
+    <item type="id" name="M7W4B" />
+    <item type="id" name="M8W4B" />
+    <item type="id" name="M9W4B" />
+    <item type="id" name="M10W4B" />
+
+
+    <item type="id" name="M1W5B" />
+    <item type="id" name="M2W5B" />
+    <item type="id" name="M3W5B" />
+    <item type="id" name="M4W5B" />
+    <item type="id" name="M5W5B" />
+    <item type="id" name="M6W5B" />
+    <item type="id" name="M7W5B" />
+    <item type="id" name="M8W5B" />
+    <item type="id" name="M9W5B" />
+    <item type="id" name="M10W5B" />
+
+
+
+
+
+
+
+    <item type="id" name="T1W1B" />
+    <item type="id" name="T2W1B" />
+    <item type="id" name="T3W1B" />
+    <item type="id" name="T4W1B" />
+    <item type="id" name="T5W1B" />
+    <item type="id" name="T6W1B" />
+    <item type="id" name="T7W1B" />
+    <item type="id" name="T8W1B" />
+    <item type="id" name="T9W1B" />
+    <item type="id" name="T10W1B" />
+
+
+    <item type="id" name="T1W2B" />
+    <item type="id" name="T2W2B" />
+    <item type="id" name="T3W2B" />
+    <item type="id" name="T4W2B" />
+    <item type="id" name="T5W2B" />
+    <item type="id" name="T6W2B" />
+    <item type="id" name="T7W2B" />
+    <item type="id" name="T8W2B" />
+    <item type="id" name="T9W2B" />
+    <item type="id" name="T10W2B" />
+
+
+    <item type="id" name="T1W3B" />
+    <item type="id" name="T2W3B" />
+    <item type="id" name="T3W3B" />
+    <item type="id" name="T4W3B" />
+    <item type="id" name="T5W3B" />
+    <item type="id" name="T6W3B" />
+    <item type="id" name="T7W3B" />
+    <item type="id" name="T8W3B" />
+    <item type="id" name="T9W3B" />
+    <item type="id" name="T10W3B" />
+
+
+
+    <item type="id" name="T1W4B" />
+    <item type="id" name="T2W4B" />
+    <item type="id" name="T3W4B" />
+    <item type="id" name="T4W4B" />
+    <item type="id" name="T5W4B" />
+    <item type="id" name="T6W4B" />
+    <item type="id" name="T7W4B" />
+    <item type="id" name="T8W4B" />
+    <item type="id" name="T9W4B" />
+    <item type="id" name="T10W4B" />
+
+
+    <item type="id" name="T1W5B" />
+    <item type="id" name="T2W5B" />
+    <item type="id" name="T3W5B" />
+    <item type="id" name="T4W5B" />
+    <item type="id" name="T5W5B" />
+    <item type="id" name="T6W5B" />
+    <item type="id" name="T7W5B" />
+    <item type="id" name="T8W5B" />
+    <item type="id" name="T9W5B" />
+    <item type="id" name="T10W5B" />
+
+
+
+
+
+
+
+    <item type="id" name="W1W1B" />
+    <item type="id" name="W2W1B" />
+    <item type="id" name="W3W1B" />
+    <item type="id" name="W4W1B" />
+    <item type="id" name="W5W1B" />
+    <item type="id" name="W6W1B" />
+    <item type="id" name="W7W1B" />
+    <item type="id" name="W8W1B" />
+    <item type="id" name="W9W1B" />
+    <item type="id" name="W10W1B" />
+
+
+    <item type="id" name="W1W2B" />
+    <item type="id" name="W2W2B" />
+    <item type="id" name="W3W2B" />
+    <item type="id" name="W4W2B" />
+    <item type="id" name="W5W2B" />
+    <item type="id" name="W6W2B" />
+    <item type="id" name="W7W2B" />
+    <item type="id" name="W8W2B" />
+    <item type="id" name="W9W2B" />
+    <item type="id" name="W10W2B" />
+
+
+    <item type="id" name="W1W3B" />
+    <item type="id" name="W2W3B" />
+    <item type="id" name="W3W3B" />
+    <item type="id" name="W4W3B" />
+    <item type="id" name="W5W3B" />
+    <item type="id" name="W6W3B" />
+    <item type="id" name="W7W3B" />
+    <item type="id" name="W8W3B" />
+    <item type="id" name="W9W3B" />
+    <item type="id" name="W10W3B" />
+
+
+
+    <item type="id" name="W1W4B" />
+    <item type="id" name="W2W4B" />
+    <item type="id" name="W3W4B" />
+    <item type="id" name="W4W4B" />
+    <item type="id" name="W5W4B" />
+    <item type="id" name="W6W4B" />
+    <item type="id" name="W7W4B" />
+    <item type="id" name="W8W4B" />
+    <item type="id" name="W9W4B" />
+    <item type="id" name="W10W4B" />
+
+
+    <item type="id" name="W1W5B" />
+    <item type="id" name="W2W5B" />
+    <item type="id" name="W3W5B" />
+    <item type="id" name="W4W5B" />
+    <item type="id" name="W5W5B" />
+    <item type="id" name="W6W5B" />
+    <item type="id" name="W7W5B" />
+    <item type="id" name="W8W5B" />
+    <item type="id" name="W9W5B" />
+    <item type="id" name="W10W5B" />
+
+
+
+
+
+    <item type="id" name="Th1W1B" />
+    <item type="id" name="Th2W1B" />
+    <item type="id" name="Th3W1B" />
+    <item type="id" name="Th4W1B" />
+    <item type="id" name="Th5W1B" />
+    <item type="id" name="Th6W1B" />
+    <item type="id" name="Th7W1B" />
+    <item type="id" name="Th8W1B" />
+    <item type="id" name="Th9W1B" />
+    <item type="id" name="Th10W1B" />
+
+
+    <item type="id" name="Th1W2B" />
+    <item type="id" name="Th2W2B" />
+    <item type="id" name="Th3W2B" />
+    <item type="id" name="Th4W2B" />
+    <item type="id" name="Th5W2B" />
+    <item type="id" name="Th6W2B" />
+    <item type="id" name="Th7W2B" />
+    <item type="id" name="Th8W2B" />
+    <item type="id" name="Th9W2B" />
+    <item type="id" name="Th10W2B" />
+
+
+    <item type="id" name="Th1W3B" />
+    <item type="id" name="Th2W3B" />
+    <item type="id" name="Th3W3B" />
+    <item type="id" name="Th4W3B" />
+    <item type="id" name="Th5W3B" />
+    <item type="id" name="Th6W3B" />
+    <item type="id" name="Th7W3B" />
+    <item type="id" name="Th8W3B" />
+    <item type="id" name="Th9W3B" />
+    <item type="id" name="Th10W3B" />
+
+
+
+    <item type="id" name="Th1W4B" />
+    <item type="id" name="Th2W4B" />
+    <item type="id" name="Th3W4B" />
+    <item type="id" name="Th4W4B" />
+    <item type="id" name="Th5W4B" />
+    <item type="id" name="Th6W4B" />
+    <item type="id" name="Th7W4B" />
+    <item type="id" name="Th8W4B" />
+    <item type="id" name="Th9W4B" />
+    <item type="id" name="Th10W4B" />
+
+
+    <item type="id" name="Th1W5B" />
+    <item type="id" name="Th2W5B" />
+    <item type="id" name="Th3W5B" />
+    <item type="id" name="Th4W5B" />
+    <item type="id" name="Th5W5B" />
+    <item type="id" name="Th6W5B" />
+    <item type="id" name="Th7W5B" />
+    <item type="id" name="Th8W5B" />
+    <item type="id" name="Th9W5B" />
+    <item type="id" name="Th10W5B" />
+
+
+
+
+
+
+    <item type="id" name="F1W1B" />
+    <item type="id" name="F2W1B" />
+    <item type="id" name="F3W1B" />
+    <item type="id" name="F4W1B" />
+    <item type="id" name="F5W1B" />
+    <item type="id" name="F6W1B" />
+    <item type="id" name="F7W1B" />
+    <item type="id" name="F8W1B" />
+    <item type="id" name="F9W1B" />
+    <item type="id" name="F10W1B" />
+
+
+    <item type="id" name="F1W2B" />
+    <item type="id" name="F2W2B" />
+    <item type="id" name="F3W2B" />
+    <item type="id" name="F4W2B" />
+    <item type="id" name="F5W2B" />
+    <item type="id" name="F6W2B" />
+    <item type="id" name="F7W2B" />
+    <item type="id" name="F8W2B" />
+    <item type="id" name="F9W2B" />
+    <item type="id" name="F10W2B" />
+
+
+    <item type="id" name="F1W3B" />
+    <item type="id" name="F2W3B" />
+    <item type="id" name="F3W3B" />
+    <item type="id" name="F4W3B" />
+    <item type="id" name="F5W3B" />
+    <item type="id" name="F6W3B" />
+    <item type="id" name="F7W3B" />
+    <item type="id" name="F8W3B" />
+    <item type="id" name="F9W3B" />
+    <item type="id" name="F10W3B" />
+
+
+
+    <item type="id" name="F1W4B" />
+    <item type="id" name="F2W4B" />
+    <item type="id" name="F3W4B" />
+    <item type="id" name="F4W4B" />
+    <item type="id" name="F5W4B" />
+    <item type="id" name="F6W4B" />
+    <item type="id" name="F7W4B" />
+    <item type="id" name="F8W4B" />
+    <item type="id" name="F9W4B" />
+    <item type="id" name="F10W4B" />
+
+
+    <item type="id" name="F1W5B" />
+    <item type="id" name="F2W5B" />
+    <item type="id" name="F3W5B" />
+    <item type="id" name="F4W5B" />
+    <item type="id" name="F5W5B" />
+    <item type="id" name="F6W5B" />
+    <item type="id" name="F7W5B" />
+    <item type="id" name="F8W5B" />
+    <item type="id" name="F9W5B" />
+    <item type="id" name="F10W5B" />
+
+
+
+</resources>

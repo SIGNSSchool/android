@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".signs.SignBestaetigenDetails">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/signs">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView8"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Bitte füllen Sie alle Felder aus"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/ContinueButtonSED">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/FirstQuestionTVSED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Erste Frage"
+                android:textColor="@color/black" />
+
+            <Spinner
+                android:id="@+id/FirstQuestionSpinnerSIGNBestätigenDetails"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp">
+
+            </Spinner>
+
+            <TextView
+                android:id="@+id/SecondQuestionTVSED"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="120dp"
+                android:text="Zweite Frage"
+                android:textColor="@color/black" />
+
+
+            <Spinner
+                android:id="@+id/SecondQuestionSpinnerSIGNBestätigenDetails"
+                android:layout_width="350dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp">
+
+            </Spinner>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="200dp"
+                android:background="@color/black">
+
+            </View>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question1SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="250dp"
+                android:hint="Erste Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question2SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="320dp"
+                android:hint="Zweite Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question3SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="390dp"
+                android:hint="Dritte Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question4SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="460dp"
+                android:hint="Vierte Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question5SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="530dp"
+                android:hint="Fünfte Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question6SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="600dp"
+                android:hint="Sechste Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question7SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="670dp"
+                android:hint="Siebte Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question8SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="740dp"
+                android:hint="Achte Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question9SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="810dp"
+                android:hint="Neunte Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question10SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="880dp"
+                android:hint="Zehnte Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question11SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="950dp"
+                android:hint="Elfte Frage" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question12SEDET"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1020dp"
+                android:hint="Zwölfte Frage" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/ContinueButtonSED"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundresource"
+        android:text="Weiter"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <Button
+        android:id="@+id/BackButtoSED"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundresource"
+        android:text="Abbrechen"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</RelativeLayout>

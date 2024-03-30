@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/nameTVAufgabenE"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Vorname, Nachname"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/DateTVAufgabenE"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/nameTVAufgabenE"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:text="TT.MM.JJJJ"
+        android:textColor="#A9A9A9"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/TitleTVAufgabenE"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/DateTVAufgabenE"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Aufgabentitel"
+        android:textColor="#5E689F"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/StatusTVAufgabenE"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/status" />
+
+
+
+
+
+
+
+</RelativeLayout>

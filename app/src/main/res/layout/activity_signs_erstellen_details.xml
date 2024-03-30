@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".signs.SignsErstellenDetails">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:text="SIGNS Details"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/TextAnnotSIGNErstellenDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Geben Sie an welche Details Sie von den Eltern benötigen"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textView24"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </TextView>
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/TextAnnotSIGNErstellenDetail"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/FirstQuestionSED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:hint="Erste Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fOption1SED"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/FirstQuestionSED"
+                android:layout_alignLeft="@+id/FirstQuestionSED"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="100dp"
+                android:hint="Erste Option">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fOption2SED"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/FirstQuestionSED"
+                android:layout_alignRight="@+id/FirstQuestionSED"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:hint="Zweite Option">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fOption3SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="170dp"
+                android:hint="Dritte Option">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="230dp"
+                android:background="@color/black">
+
+            </View>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SecondQuestionSED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fOption3SED"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:hint="Zweite Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/sOption1SED"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/FirstQuestionSED"
+                android:layout_alignLeft="@+id/FirstQuestionSED"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="340dp"
+                android:hint="Erste Option">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/sOption2SED"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/FirstQuestionSED"
+                android:layout_alignRight="@+id/FirstQuestionSED"
+                android:layout_marginTop="340dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:hint="Zweite Option">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/sOption3SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="410dp"
+                android:hint="Dritte Option">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="470dp"
+                android:background="@color/black">
+
+            </View>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question1SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="490dp"
+                android:hint="Dritte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question2SED"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="560dp"
+                android:layout_centerHorizontal="true"
+                android:hint="Vierte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question3SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="630dp"
+                android:hint="Fünfte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question4SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="700dp"
+                android:hint="Sechste Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question5SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="770dp"
+                android:hint="Siebte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question6SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="840dp"
+                android:hint="Achte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question7SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="910dp"
+                android:hint="Neunte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question8SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="980dp"
+                android:hint="Zehnte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question9SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1050dp"
+                android:hint="Elfte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question10SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1120dp"
+                android:hint="Zwölfte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question11SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1190dp"
+                android:hint="Dreizehnte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Question12SED"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1260dp"
+                android:hint="Vierzehnte Frage">
+
+            </com.google.android.material.textfield.TextInputEditText>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/AddButtonSIGNSErstellenDetail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundresource"
+        android:text="Hinzufügen"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </Button>
+
+    <Button
+        android:id="@+id/BackButtonSIGNSErstellenDetail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/roundresource"
+        android:text="Abbrechen"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Button>
+
+
+</RelativeLayout>

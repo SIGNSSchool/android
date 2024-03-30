@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".news.CreateNews">
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:text="Menu"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/recurringButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:backgroundTint="@color/white"
+        android:text="Settings"
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@null"
+        android:text="Erstellen"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        app:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/TitleNEWSErstellenTextField"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="26dp"
+                android:hint="@string/titel_eingeben"
+                android:textAlignment="textStart"
+                android:textColorHint="#AEAEAE" />
+
+            <Spinner
+                android:id="@+id/gradeSpinnerNEWS"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/TitleNEWSErstellenTextField"
+                android:layout_marginLeft="85px"
+                android:layout_marginTop="10dp" />
+
+
+
+
+            <Button
+                android:id="@+id/showDatePicker"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="85px"
+                android:layout_marginBottom="16dp"
+                android:background="@null"
+                android:text="Datum wählen"
+                android:textColor="#000000"
+                app:backgroundTint="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_below="@+id/gradeSpinnerNEWS"/>
+
+
+            <DatePicker
+                android:id="@+id/datePickerNEWS"
+                android:layout_width="350dp"
+                android:layout_height="400dp"
+                android:layout_below="@+id/showDatePicker"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:datePickerMode="calendar">
+
+            </DatePicker>
+
+
+            <EditText
+                android:id="@+id/DescriptionNEWSErstellenTextField"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:layout_below="@+id/datePickerNEWS"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/cardview_light_background"
+                android:hint="@string/bitte_beschreiben_sie_die_wahl">
+
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/NEWSErstellenOption"
+                android:layout_width="320dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/DescriptionNEWSErstellenTextField"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="54dp"
+                android:hint="wahlmöglichkeit"
+                android:textAlignment="textStart">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/addButtonNEWSErstellen"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/DescriptionNEWSErstellenTextField"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="45dp"
+                android:layout_toEndOf="@+id/NEWSErstellenOption"
+                android:backgroundTint="@color/white"
+                android:text="+"
+                android:background="@null"
+                android:textSize="24sp" />
+
+            <ListView
+                android:id="@+id/createnewslistview"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/NEWSErstellenOption"
+                android:layout_marginTop="30dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="erstellen"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="6dip"
+    android:orientation="vertical">
+
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+        <TextView
+            android:id="@+id/roomMyRooms"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="30dp"
+            android:text="Name"
+            android:textColor="#5959AD"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/infoMyRooms"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="30dp"
+            android:text="info"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp" />
+
+
+    </GridLayout>
+
+
+</LinearLayout>

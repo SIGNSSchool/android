@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="status">
+        <item>Ich akzeptiere</item>
+        <item>Ich lehne ab</item>
+    </string-array>
+
+    <string-array name="Classes">
+        <item>5a</item>
+        <item>5b</item>
+        <item>5c</item>
+        <item>5d</item>
+        <item>6a</item>
+        <item>6b</item>
+        <item>6c</item>
+        <item>6d</item>
+        <item>7a</item>
+        <item>7b</item>
+        <item>7c</item>
+        <item>7d</item>
+        <item>8a</item>
+        <item>8b</item>
+        <item>8c</item>
+        <item>8d</item>
+        <item>9a</item>
+        <item>9b</item>
+        <item>9c</item>
+        <item>9d</item>
+        <item>10a</item>
+        <item>10b</item>
+        <item>10c</item>
+        <item>10d</item>
+        <item>EF1</item>
+        <item>EF2</item>
+        <item>EF3</item>
+        <item>Q1</item>
+        <item>Q2</item>
+    </string-array>
+
+
+    <string-array name="Stunden">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+    <string-array name="test">
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+
+
+
+
+    <string-array name="DayDates">
+
+        <item>Montag, 11.04</item>
+        <item>Dienstag, 12.04</item>
+        <item>Mittwoch, 13.04</item>
+        <item>Donnerstag, 14.04</item>
+        <item>Freitag, 15.04</item>
+        <item>Montag, 18.04</item>
+        <item>Dienstag, 19.04</item>
+        <item>Mittwoch, 20.04</item>
+        <item>Donnerstag, 21.04</item>
+        <item>Freitag, 22.04</item>
+        <item>Montag, 25.04</item>
+        <item>Dienstag, 26.04</item>
+        <item>Mittwoch, 27.04</item>
+        <item>Donnerstag, 28.04</item>
+        <item>Freitag, 29.04</item>
+        <item>Montag, 02.05</item>
+        <item>Dienstag, 03.05</item>
+        <item>Mittwoch, 04.05</item>
+        <item>Donnerstag, 05.05</item>
+        <item>Freitag, 06.05</item>
+        <item>Montag, 09.05</item>
+        <item>Dienstag, 10.05</item>
+        <item>Mittwoch, 11.05</item>
+        <item>Donnerstag, 12.05</item>
+        <item>Freitag, 13.05</item>
+
+
+    </string-array>
+
+
+    <string-array name="Class5">
+        <item>5a</item>
+        <item>5b</item>
+        <item>5c</item>
+        <item>5d</item>
+    </string-array>
+
+    <string-array name="Class6">
+        <item>6a</item>
+        <item>6b</item>
+        <item>6c</item>
+        <item>6d</item>
+    </string-array>
+
+    <string-array name="Class7">
+        <item>7a</item>
+        <item>7b</item>
+        <item>7c</item>
+        <item>7d</item>
+    </string-array>
+
+    <string-array name="Class8">
+        <item>8a</item>
+        <item>8b</item>
+        <item>8c</item>
+        <item>8d</item>
+    </string-array>
+
+    <string-array name="Class9">
+        <item>9a</item>
+        <item>9b</item>
+        <item>9c</item>
+        <item>9d</item>
+    </string-array>
+
+    <string-array name="Class10">
+        <item>10a</item>
+        <item>10b</item>
+        <item>10c</item>
+        <item>10d</item>
+    </string-array>
+
+    <string-array name="ClassEF">
+        <item>EF1</item>
+        <item>EF2</item>
+        <item>EF3</item>
+    </string-array>
+
+    <string-array name="ClassQ">
+        <item>Q1</item>
+        <item>Q2</item>
+    </string-array>
+
+
+    <string-array name="classes">
+        <item>5a</item>
+        <item>5b</item>
+        <item>5c</item>
+        <item>5d</item>
+        <item>6a</item>
+        <item>6b</item>
+        <item>6c</item>
+        <item>6d</item>
+        <item>7a</item>
+        <item>7b</item>
+        <item>7c</item>
+        <item>7d</item>
+        <item>8a</item>
+        <item>8b</item>
+        <item>8c</item>
+        <item>8d</item>
+        <item>9a</item>
+        <item>9b</item>
+        <item>9c</item>
+        <item>9d</item>
+        <item>10a</item>
+        <item>10b</item>
+        <item>10c</item>
+        <item>10d</item>
+        <item>EF1</item>
+        <item>EF2</item>
+        <item>EF3</item>
+        <item>Q1</item>
+        <item>Q2</item>
+
+    </string-array>
+
+
+    <string-array name="Grade">
+
+        <item>Fünfter</item>
+        <item>Sechster</item>
+        <item>Siebter</item>
+        <item>Achter</item>
+        <item>Neunter</item>
+        <item>Zehnter</item>
+        <item>Einführungsphase</item>
+        <item>Qualifikationsphase 1</item>
+        <item>Qualifikationsphase 2</item>
+
+    </string-array>
+
+
+    <string-array name="subjects">
+
+        <item>Mathematik</item>
+        <item>Deutsch</item>
+        <item>Englisch</item>
+        <item>Chemie</item>
+        <item>Biologie</item>
+        <item>Physik</item>
+        <item>Geschichte</item>
+        <item>Sozialwissenschaften</item>
+        <item>Philosophie</item>
+        <item>Religion</item>
+        <item>Kunst</item>
+        <item>Spanisch</item>
+        <item>Französisch</item>
+        <item>Türkisch</item>
+        <item>Spanisch</item>
+        <item>Latein</item>
+        <item>Sport</item>
+
+
+    </string-array>
+
+
+</resources>

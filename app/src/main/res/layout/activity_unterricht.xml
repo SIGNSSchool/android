@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context=".assignments.Unterricht">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="30dp"
+        android:text="unterricht"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/roundresource"
+        android:text="Fertig"
+        android:textColor="#000000"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="1030dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+
+            <Button
+                android:id="@+id/LessonButton1"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="@string/mathematik"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton2"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="@string/englisch"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="@string/deutsch"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton4"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="@string/chemie"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/LessonButton5"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="@string/physik"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton6"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="@string/biologie"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton7"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="@string/religion"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton8"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Geschichte"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/LessonButton9"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Social Science"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton10"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Philosophie"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton11"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="@string/spanisch"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton12"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="@string/sport"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+
+            <Button
+                android:id="@+id/LessonButton13"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Latein"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton14"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Französisch"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton15"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Türkisch"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton16"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Technik"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton17"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Arbeitslehre"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton18"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Literatur"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton19"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Musik"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+            <Button
+                android:id="@+id/LessonButton20"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/stundenbtnresource"
+                android:text="Hauswirtschaft"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                app:backgroundTint="#5959AD">
+
+            </Button>
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
